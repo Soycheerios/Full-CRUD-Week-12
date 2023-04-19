@@ -1,0 +1,36 @@
+.container {               /* Center the content inside container */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: beige;
+  }
+  
+.pageTitle {             /* Styles the page title "bills to pay" */
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .table thead th {   /* Styles the table headers */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table td {            /* Styles the table cells */
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  
+  #create-new-bill {     /* Styles the create button */
+    margin-top: 30px;
+  }
+  
+  .form-control {         /* Styles input fields */
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron {              /* Styles the jumbotron class */
+    background-color:white;
+    padding: 40px;
+    margin-bottom: 40px;
+  }

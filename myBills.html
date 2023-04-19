@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Tracking App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="myBills.css">
+</head>
+<body class="container">
+    <div id="new-bill" class="jumbotron">
+        <h2 class="pageTitle"> $$$ Bills to Pay! $$$</h2>
+        <input type="text" id="bill-name" class="form-control" placeholder="Bill Name"> <br>
+        <input type="number" id="bill-amount" class="form-control" placeholder="Bill Amount"> <br>
+        <input type="date" id="bill-due-date" class="form-control" placeholder="Due Date"> <br>
+        <button id="create-new-bill" class="btn btn-primary form-control">Create</button>
+    </div>
+
+    <div id="app">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Bill Name</th>
+                    <th>Bill Amount</th>
+                    <th>Due Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="bill-list">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="myBills.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
